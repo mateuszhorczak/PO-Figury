@@ -25,7 +25,6 @@ public class Main {
         Kwadrat kw1 = new Kwadrat("zielony", p1, 5);
         //System.out.println(kw1.toString());
 
-        //TODO Stworzyc kolekcje i stestowac dodwaanie
         List<Figura> figury = new ArrayList<>();
         figury.add(tr1);
         figury.add(kw1);
@@ -33,9 +32,9 @@ public class Main {
         figury.add(pro1);
         figury.remove(czw1);
 
-        System.out.println("tr1 ma kolor " + tr1.getKolor());
+        System.out.println("tr1 przed zmiana ma kolor " + tr1.getKolor());
         tr1.setKolor("ruszofy");
-        System.out.println("tr1 ma kolor " + tr1.getKolor());
+        System.out.println("tr1 po zmianie ma kolor " + tr1.getKolor());
 
 
         for (var item : figury) {
